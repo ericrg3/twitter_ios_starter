@@ -42,7 +42,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="CFi-IS-vdA" kind="presentation" identifier="loginToHome" modalPresentationStyle="fullScreen" id="wwi-u5-cUR"/>
+                        <segue destination="CFi-IS-vdA" kind="presentation" identifier="LoginToHome" modalPresentationStyle="fullScreen" id="wwi-u5-cUR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7l-sq-glE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

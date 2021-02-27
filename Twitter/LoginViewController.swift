@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         if UserDefaults.standard.bool(forKey: "userLoggedIn") == true{
-            self.performSegue(withIdentifier: "loginToHome", sender: self)
+            self.performSegue(withIdentifier: "LoginToHome", sender: self)
         }
     }
     @IBAction func onLoginButton(_ sender: Any) {
